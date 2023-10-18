@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -9,4 +9,66 @@ body {
   padding: 0;
 }
 
+strong {
+  color: #009966;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5em;
+}
+
 /* Add styles here! */
+.intro-chunk {
+  max-width: 415px;
+  padding-bottom: 64px;
+}
+
+.title {
+  margin-top: 96px;
+  margin-bottom: 48px;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.indented-heading {
+  background-color: #ffbf00;
+  border-bottom: solid 8px #cc9900;
+  padding: 16px 32px;
+  margin-left: -32px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  margin-right: -24px;
+  width: fit-content;
+}
+
+header {
+  border-bottom: solid #999999 8px;
+}
+
+main {
+  background-color: #666666;
+  padding-block-start: 64px;
+  padding-block-end: 64px;
+}
+
+.card {
+  background-color: #fff;
+  border-bottom: 8px #999 solid;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  margin-left: -24px;
+  padding-left: 24px;
+  margin-right: -24px;
+  padding-right: 24px;
+}
+
+p:last-child {
+  margin-bottom: 0px;
+}
